@@ -1,0 +1,29 @@
+{
+  "name": "mixmax-github-slash",
+  "version": "0.0.1",
+  "description": "Github slash command for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sebakerckhof/mixmax-github-slashcommand.git"
+  },
+  "author": "Seba Kerckhof <seba.kerckhof@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebakerckhof/mixmax-github-slashcommand/issues"
+  },
+  "homepage": "https://github.com/sebakerckhof/mixmax-github-slashcommand",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "request": "^2.64.0",
+    "synchronize": "^0.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
